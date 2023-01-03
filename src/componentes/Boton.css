@@ -1,0 +1,25 @@
+.boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8efda6;
+  color: black;
+  height: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+}
+
+.operador {
+  background-color: #f0db4f;
+  color: #aa00a4;
+}
